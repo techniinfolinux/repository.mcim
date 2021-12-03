@@ -51,7 +51,7 @@
 		<dir minversion="17.0.0" maxversion="19.9.9">
 			<info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/krypton/repo.mcim/addons.xml</info>
 			<checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/krypton/repo.mcim/addons.xml.md5</checksum>
-			<datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim//zips</datadir>
+			<datadir zip="true">https://techniinfolinux.github.io/repository.mcim//zips</datadir>
 			<hashes>false</hashes>
 		</dir>
 		<!-- <dir minversion="18.0.0" maxversion="19.9.9">
