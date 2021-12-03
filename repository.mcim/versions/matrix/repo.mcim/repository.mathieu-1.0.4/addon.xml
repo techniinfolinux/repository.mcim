@@ -1,0 +1,64 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mathieu" name="Mathieu's Kodi Addons" provider-name="Mathieu" version="1.0.4">
+  <requires>
+    <import addon="xbmc.addon" version="17.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Mathieu Addon Repository">
+    <info compressed="false">http://192.168.0.251/repository.mathieu/versions/matrix/repo.mathieu/addons.xml</info>
+    <checksum>http://192.168.0.251/repository.mathieu/versions/matrix/repo.mathieu/addons.xml.md5</checksum>
+    <datadir zip="true">http://192.168.0.251/repository.mathieu/versions/matrix/repo.mathieu</datadir>
+    <dir minversion="19.0.0" maxversion="19.9.9">
+	<info compressed="false">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master</datadir>
+	<hashes>false</hashes>
+	</dir>
+	<dir minversion="19.0.0" maxversion="19.9.9">
+	<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
+	<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
+	<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
+	</dir>
+	<dir minversion="19.0.0" maxversion="19.9.9">
+	<info>https://github.com/CastagnaIT/repository.castagnait/raw/matrix/addons.xml</info>
+	<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/matrix/addons.xml.md5</checksum>
+	<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/matrix/zip</datadir>
+	</dir>
+	<dir minversion="17.0.0" maxversion="19.9.9">
+	<info compressed="false">https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/krypton_release/addons.xml</info>
+    <checksum>https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/addons_xmls/krypton_release/addons.xml.md5</checksum> 
+    <datadir zip="true">https://raw.github.com/Catch-up-TV-and-More/repository.catchuptvandmore/master/zips/krypton_release</datadir>
+    </dir>
+    <dir minversion="19.0.0" maxversion="19.9.9">
+    <info compressed="false">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/</datadir>
+  	</dir>
+  	<dir minversion="18.0.0" maxversion="19.9.9">
+    <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
+    <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+    </dir>
+    <dir minversion="19.0.0" maxversion="19.9.9">
+	<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/</datadir>
+	</dir>
+	<dir minversion="19.0.0" maxversion="19.9.9">
+	<info compressed="false">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/sualfred/my-kodi-repo/master/repositories/</datadir>
+	</dir>
+	<dir minversion="19.0.0" maxversion="19.9.9">
+    <info compressed="false">https://raw.githubusercontent.com/Radiick/repositoryRDK/master/zips/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/Radiick/repositoryRDK/master/zips/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/Radiick/repositoryRDK/master/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary>Mathieu Addon Repository for Matrix</summary>
+	<description>Home of Mathieu Addon Repository for Matrix</description>
+	<disclaimer></disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>

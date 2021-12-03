@@ -1,0 +1,24 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mathieu" name="Mathieu's Kodi Addons" provider-name="Mathieu" version="1.0.1">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Mathieu Addon Repository">
+    <info compressed="false">http://192.168.0.251/repository.mathieu/addons.xml</info>
+    <checksum>http://192.168.0.251/repository.mathieu/addons.xml.md5</checksum>
+    <datadir zip="true">http://192.168.0.251/repository.mathieu/</datadir>
+    <dir minversion="19.0.0" maxversion="19.9.9">
+	<info compressed="false">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master</datadir>
+	<hashes>false</hashes>
+	</dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary>Mathieu Addon Repository for Matrix</summary>
+	<description>Home of Mathieu Addon Repository for Matrix</description>
+	<disclaimer></disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>
