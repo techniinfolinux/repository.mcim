@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="18.0.0">
+  <requires>
+    <import addon="xbmc.addon" version="18.0.0"/>
+    <import addon="resource.language.fr_fr" version="9.0.24"/>
+    <!-- <import addon="script.kodi.loguploader" version="0.5.0"/> -->
+  </requires>
+  <extension point="xbmc.addon.repository" name="MCIM Addon Repository">
+    <info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/addons.xml</info>
+    <checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/addons.xml.md5</checksum>
+    <datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/zips/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary>MCIM Addon Repository for Leia</summary>
+	<description>Home of MCIM Addon Repository for Leia</description>
+	<disclaimer></disclaimer>
+	<platform>all</platform>
+	<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
