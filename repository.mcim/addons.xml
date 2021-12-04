@@ -7,14 +7,14 @@
     <import addon="resource.language.fr_fr" version="3.0.16"/>
     <!-- <import addon="script.kodi.loguploader" version="0.5.0"/> -->
   </requires>
-  <dir minversion="17.0.0" maxversion="17.9.9">
 	<extension point="xbmc.addon.repository" name="MCIM Addon Repository">
+			<dir minversion="17.0.0" maxversion="17.9.9">
 			<info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/krypton/repo.mcim/addons.xml</info>
 			<checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/krypton/repo.mcim/addons.xml.md5</checksum>
 			<datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/zips</datadir>
 			<hashes>false</hashes>
+			</dir>
 		</extension>
-		</dir>
     <extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
 	<description>Home of MCIM Addon Repository for Krypton</description>
@@ -34,14 +34,14 @@
     <import addon="resource.language.fr_fr" version="9.0.24"/>
     <!-- <import addon="script.kodi.loguploader" version="0.5.0"/> -->
   </requires>
-  <dir minversion="18.0.0" maxversion="18.9.9">
   <extension point="xbmc.addon.repository" name="MCIM Addon Repository">
+  			<dir minversion="18.0.0" maxversion="18.9.9">
 			<info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/leia/repo.mcim/addons.xml</info>
 			<checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/leia/repo.mcim/addons.xml.md5</checksum>
 			<datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/leia/repo.mcim/zips/</datadir>
 			<hashes>false</hashes>
+			</dir>
 		</extension>
-		</dir>
 	<extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
 	<description>Home of MCIM Addon Repository for Leia</description>
@@ -61,11 +61,11 @@
     <import addon="resource.language.fr_fr" version="9.0.44"/>
   </requires>
   <extension point="xbmc.addon.repository" name="MCIM Addon Repository">
-  <dir minversion="19.0.0" maxversion="19.9.9">
+    <dir minversion="19.0.0" maxversion="19.9.9">
     <info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml</info>
     <checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml.md5</checksum>
     <datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/zips/</datadir>
-  </dir>
+    </dir>
   </extension>
 	<extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
