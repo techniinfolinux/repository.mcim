@@ -55,7 +55,7 @@
   </extension>
 </addon>
 
-<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="18.0.0">
+<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="19.0.0">
 	<requires>
     <import addon="xbmc.addon" version="19.0.0"/>
     <import addon="resource.language.fr_fr" version="9.0.44"/>
