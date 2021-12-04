@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="17.0.0">
+<addon id="repository.mcim" name="MCIM's Kodi Addons for Krypton" provider-name="techniinfolinux" version="17.0.0">
 	<requires>
     <import addon="xbmc.addon" version="17.0.0"/>
     <import addon="resource.language.fr_fr" version="3.0.16"/>
@@ -28,7 +28,7 @@
   </extension>
 </addon>
 
-<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="18.0.0">
+<addon id="repository.mcim" name="MCIM's Kodi Addons for Leia" provider-name="techniinfolinux" version="18.0.0">
 	<requires>
     <import addon="xbmc.addon" version="18.0.0"/>
     <import addon="resource.language.fr_fr" version="9.0.24"/>
@@ -55,7 +55,7 @@
   </extension>
 </addon>
 
-<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="19.0.0">
+<addon id="repository.mcim" name="MCIM's Kodi Addons for Matrix" provider-name="techniinfolinux" version="19.0.0">
 	<requires>
     <import addon="xbmc.addon" version="19.0.0"/>
     <import addon="resource.language.fr_fr" version="9.0.44"/>
