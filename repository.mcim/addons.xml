@@ -41,7 +41,7 @@
 </addon> -->
 
 
-<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techni.info" version="1.0.1">
+<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techni.info" version="17.0.0">
 	<requires>
     <import addon="xbmc.addon" version="17.0.0"/>
     <!-- <import addon="resource.language.fr_fr" version="3.0.16"/>
@@ -54,24 +54,6 @@
 			<datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/zips</datadir>
 			<hashes>false</hashes>
 		</dir>
-		<!-- <dir minversion="18.0.0" maxversion="19.9.9">
-			<info compressed="false">https://192.168.0.251/repository.mathieu/versions/archived/leia/repo.mathieu/addons.xml</info>
-			<checksum>https://192.168.0.251/repository.mathieu/versions/archived/leia/repo.mathieu/addons.xml.md5</checksum>
-			<datadir zip="true">https://192.168.0.251//zips</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="19.0.0" maxversion="19.9.9">
-			<info compressed="false">http://192.168.0.251/repository.mathieu/versions/matrix/addons.xml</info>
-			<checksum>http://192.168.0.251/repository.mathieu/versions/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">http://192.168.0.251/repository.mathieu/versions/matrix</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir minversion="20.0.0" maxversion="20.9.9">
-			<info compressed="false">http://192.168.0.251/repository.mathieu/versions/nexus/addons.xml</info>
-			<checksum>http://192.168.0.251/repository.mathieu/versions/addons.xml.md5</checksum>
-			<datadir zip="true">http://192.168.0.251/repository.mathieu/versions/nexus</datadir>
-			<hashes>false</hashes>
-		</dir> -->
 		</extension>
     <extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository for Krypton</summary>
