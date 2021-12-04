@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="17.0.0">
+<addon id="repository.mcim" name="MCIM's Kodi Addons for Krypton" provider-name="techniinfolinux" version="17.0.0">
   <requires>
     <import addon="xbmc.addon" version="17.0.0"/>
     <!-- <import addon="resource.language.fr_fr" version="3.0.16"/>
