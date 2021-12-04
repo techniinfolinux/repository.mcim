@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	
+
 <dir minversion="17.0.0" maxversion="17.9.9">
 <addon id="repository.mcim" name="MCIM's Kodi Addons for Krypton" provider-name="techniinfolinux" version="17.0.0">
 	<requires>
@@ -9,12 +9,10 @@
     <!-- <import addon="script.kodi.loguploader" version="0.5.0"/> -->
   </requires>
 	<extension point="xbmc.addon.repository" name="MCIM Addon Repository">
-		<!-- <dir minversion="17.0.0" maxversion="17.9.9"> -->
 			<info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/krypton/repo.mcim/addons.xml</info>
 			<checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/krypton/repo.mcim/addons.xml.md5</checksum>
 			<datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/zips</datadir>
 			<hashes>false</hashes>
-		<!-- </dir> -->
 		</extension>
     <extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
@@ -30,6 +28,7 @@
 </addon>
 </dir>
 
+<dir minversion="18.0.0" maxversion="18.9.9">
 <addon id="repository.mcim" name="MCIM's Kodi Addons for Leia" provider-name="techniinfolinux" version="18.0.0">
 	<requires>
     <import addon="xbmc.addon" version="18.0.0"/>
@@ -37,12 +36,10 @@
     <!-- <import addon="script.kodi.loguploader" version="0.5.0"/> -->
   </requires>
   <extension point="xbmc.addon.repository" name="MCIM Addon Repository">
-		<dir minversion="18.0.0" maxversion="18.9.9">
 			<info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/leia/repo.mcim/addons.xml</info>
 			<checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/leia/repo.mcim/addons.xml.md5</checksum>
 			<datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/archived/leia/repo.mcim/zips/</datadir>
 			<hashes>false</hashes>
-		</dir>
 		</extension>
 	<extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
@@ -56,18 +53,18 @@
     <!-- <news></news> -->
   </extension>
 </addon>
+</dir>
 
+<dir minversion="19.0.0" maxversion="19.9.9">
 <addon id="repository.mcim" name="MCIM's Kodi Addons for Matrix" provider-name="techniinfolinux" version="19.0.0">
 	<requires>
     <import addon="xbmc.addon" version="19.0.0"/>
     <import addon="resource.language.fr_fr" version="9.0.44"/>
   </requires>
   <extension point="xbmc.addon.repository" name="MCIM Addon Repository">
-  	<dir minversion="19.0.0" maxversion="19.9.9">
     <info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml</info>
     <checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml.md5</checksum>
     <datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/zips/</datadir>
-    </dir>
   </extension>
 	<extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
@@ -81,5 +78,6 @@
     <!-- <news></news> -->
   </extension>
 </addon>
+</dir>
 
 </addons>
