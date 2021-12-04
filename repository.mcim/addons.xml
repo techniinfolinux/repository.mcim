@@ -17,7 +17,7 @@
 		</extension>
     <extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
-	<description>Home of MCIM Addon Repository</description>
+	<description>Home of MCIM Addon Repository for Krypton</description>
 	<disclaimer></disclaimer>
 	<platform>all</platform>
 	<assets>
@@ -44,7 +44,7 @@
 		</extension>
 	<extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
-	<description>Home of MCIM Addon Repository</description>
+	<description>Home of MCIM Addon Repository for Leia</description>
 	<disclaimer></disclaimer>
 	<platform>all</platform>
 	<assets>
@@ -69,7 +69,7 @@
   </extension>
 	<extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository</summary>
-	<description>Home of MCIM Addon Repository</description>
+	<description>Home of MCIM Addon Repository for Matrix</description>
 	<disclaimer></disclaimer>
 	<platform>all</platform>
 	<assets>
