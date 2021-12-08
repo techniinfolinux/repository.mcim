@@ -21,7 +21,7 @@
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
     </assets>
-    <!-- <news></news> -->
+	<news></news>
   </extension>
 </addon>
 	
@@ -44,7 +44,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="20.0.0">
+<!-- <addon id="repository.mcim" name="MCIM's Kodi Addons" provider-name="techniinfolinux" version="20.0.0">
 	<requires>
     <import addon="xbmc.addon" version="20.0.0"/>
     <import addon="resource.language.fr_fr" version="9.0.44"/>
@@ -65,7 +65,8 @@
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
     </assets>
-    <!-- <news></news> -->
+    <news></news>
   </extension>
-</addon>
+</addon> -->
+
 </addons>
