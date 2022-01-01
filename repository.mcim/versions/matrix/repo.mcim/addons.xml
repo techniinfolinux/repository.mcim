@@ -26,7 +26,7 @@
   </extension>
 </addon>
 
-<addon id="repository.amber.matrix" name="Amber Repository - Matrix" version="1.0.2" provider-name="bsoriano">
+<!-- <addon id="repository.amber.matrix" name="Amber Repository - Matrix" version="1.0.2" provider-name="bsoriano">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -43,7 +43,7 @@
 		<platform>all</platform>
 		<news>[I]v1.0.2[/I][CR]- Fix GitHub URLd</news>
 	</extension>
-</addon>
+</addon> -->
 
 <!-- <addon id="repository.mcim" name="MCIM's Kodi Addons for Nexus" provider-name="techniinfolinux" version="20.0.0">
 	<requires>
