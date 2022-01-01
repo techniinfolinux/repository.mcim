@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mcim" name="MCIM's Kodi Addons for Matrix" provider-name="techniinfolinux" version="19.0.1">
+  <requires>
+    <import addon="xbmc.addon" version="19.0.0"/>
+    <import addon="resource.language.fr_fr" version="9.0.44"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="MCIM Addon Repository">
+  	<dir minversion="19.0.0" maxversion="19.9.9">
+    <info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml</info>
+    <checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml.md5</checksum>
+    <datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/zips/</datadir>
+    </dir>
+    <dir minversion="19.0.0" maxversion="19.9.9">
+			<info compressed="false">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master</datadir>
+		</dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary>MCIM Addon Repository for Matrix</summary>
+	<description>Home of MCIM Addon Repository for Matrix</description>
+	<disclaimer></disclaimer>
+	<platform>all</platform>
+	<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
