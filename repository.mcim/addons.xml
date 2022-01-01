@@ -79,5 +79,48 @@
     <!-- <news></news> -->
   </extension>
 </addon>
+<addon id="repository.mcim" name="MCIM's Kodi Addons for Matrix" provider-name="techniinfolinux" version="19.0.1">
+	<requires>
+    <import addon="xbmc.addon" version="19.0.0"/>
+    <import addon="resource.language.fr_fr" version="9.0.44"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="MCIM Addon Repository">
+    <dir minversion="19.0.0" maxversion="19.9.9">
+    <info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml</info>
+    <checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml.md5</checksum>
+    <datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/zips/</datadir>
+    </dir>
+  </extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>MCIM Addon Repository</summary>
+	<description>Home of MCIM Addon Repository for Matrix</description>
+	<disclaimer></disclaimer>
+	<platform>all</platform>
+	<assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <!-- <news></news> -->
+  </extension>
+</addon>
+	
+<addon id="repository.amber.matrix" name="Amber Repository - Matrix" version="1.0.2" provider-name="bsoriano">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Amber Repo">
+		<dir minversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Amber skin for Matrix</summary>
+		<description>Matrix Repository for Amber</description>
+		<platform>all</platform>
+		<news>[I]v1.0.2[/I][CR]- Fix GitHub URLd</news>
+	</extension>
+</addon>
 
 </addons>
