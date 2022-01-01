@@ -6,15 +6,10 @@
   </requires>
   <extension point="xbmc.addon.repository" name="MCIM Addon Repository">
   	<dir minversion="19.0.0" maxversion="19.9.9">
-    <info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml</info>
-    <checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/addons.xml.md5</checksum>
-    <datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/zips/</datadir>
+    <info compressed="false">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/zips/repository.mcim/addons.xml</info>
+    <checksum>https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/zips/repository.mcim/addons.xml.md5</checksum>
+    <datadir zip="true">https://techniinfolinux.github.io/repository.mcim/repository.mcim/versions/matrix/repo.mcim/zips/repository.mcim/</datadir>
     </dir>
-    <dir minversion="19.0.0" maxversion="19.9.9">
-			<info compressed="false">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master</datadir>
-		</dir>
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary>MCIM Addon Repository for Matrix</summary>
