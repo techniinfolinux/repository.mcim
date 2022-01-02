@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.mcim" name="MCIM's Kodi Addons for Matrix" provider-name="techniinfolinux" version="19.0.0">
+<!-- <addon id="repository.mcim" name="MCIM's Kodi Addons for Matrix" provider-name="techniinfolinux" version="19.0.0">
 	<requires>
     <import addon="xbmc.addon" version="19.0.0"/>
     <import addon="resource.language.fr_fr" version="9.0.44"/>
@@ -24,7 +24,7 @@
     </assets>
     <news></news>
   </extension>
-</addon>
+</addon> -->
 	
 <!-- <addon id="repository.mcim" name="MCIM's Kodi Addons for Nexus" provider-name="techniinfolinux" version="20.0.0">
 	<requires>
